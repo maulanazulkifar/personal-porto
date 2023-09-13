@@ -2,7 +2,7 @@ import './index.css'
 
 const Skills = () => {
   return(
-    <div className={'px-4'} id={'education_section'}>
+    <div className={'md:mx-36 md:my-10 container'} id={'education_section'}>
       <div className={'flex flex-col items-center  sm:items-start'}>
         <div className={'flex flex-col items-center'}>
           <p className={'title-section'}>Learning PATH</p>

@@ -88,7 +88,7 @@ const WorkExperience = () => {
     })
   }
   return(
-    <div id={'career_section'} className={'px-4 py-4'}>
+    <div id={'career_section'} className={'mx-36 my-10 container'}>
       <div className={'flex flex-col sm:items-start'}>
         <div className={'flex flex-col items-center'}>
           <p className={'title-section'}>CAREER PATH</p>

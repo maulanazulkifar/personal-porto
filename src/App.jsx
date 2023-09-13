@@ -9,6 +9,7 @@ import Footer from "./components/Footer/index.jsx";
 import WorkExperience from "./components/WorkExperience/index.jsx";
 import WorkExperienceMobile from "./components/WorkExperienceMobile/index.jsx";
 import Skills from "./components/Skills/index.jsx";
+import UnderConstruction from "./components/UnderConstruction/index.jsx";
 
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -24,6 +25,8 @@ function App() {
   }, []);
 
   const isMobile = width <= 768;
+  const isMaintenance = true;
+  if (isMaintenance) return <UnderConstruction/>;
 
   return (
     <div>
